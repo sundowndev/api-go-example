@@ -7,37 +7,37 @@
 package main
 
 import (
-    "log"
+	"log"
 
-    "github.com/joho/godotenv"
+	"github.com/joho/godotenv"
 
-    "github.com/sundowndev/api-go-example/src/routers"
-    "github.com/sundowndev/api-go-example/src/services"
+	"github.com/sundowndev/api-go-example/src/routers"
+	"github.com/sundowndev/api-go-example/src/services"
 )
 
 // init
 func init() {
-    // Initialize environment variable contained in .env
-    if err := godotenv.Load(); err != nil {
-        log.Fatal("No .env file found")
-    }
+	// Initialize environment variable contained in .env
+	if err := godotenv.Load(); err != nil {
+		log.Fatal("No .env file found")
+	}
 }
 
 // main
 func main() {
-    // Initialize Database
-    services.Database()
+	// Initialize Database
+	services.Database()
 
-    // Initialize Jwt
-    services.Jwt()
+	// Initialize Jwt
+	services.Jwt()
 
-    // Initialize router
-    var routerEngine = routers.RouterInitialize()
+	// Initialize router
+	var routerEngine = routers.RouterInitialize()
 
-    // Launch API
-    if err := routerEngine.Run(); err != nil {
-        log.Fatal(err)
-    }
+	// Launch API
+	if err := routerEngine.Run(); err != nil {
+		log.Fatal(err)
+	}
 
-    services.Db.Close()
+	services.Db.Close()
 }
