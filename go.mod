@@ -1,4 +1,4 @@
-module github.com/fbonhomm/api-go-example
+module github.com/sundowndev/api-go-example
 
 go 1.12
 
