@@ -31,4 +31,4 @@ jobs:
       run: |
         go build -v .
         go test -v ./test/unit/*.go
-        go test -v ./test/functional/*.go
+        #go test -v ./test/functional/*.go
