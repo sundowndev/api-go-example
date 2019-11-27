@@ -11,9 +11,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/fbonhomm/api-go-example/source/libs"
-	"github.com/fbonhomm/api-go-example/source/models"
-	"github.com/fbonhomm/api-go-example/source/services"
+	"github.com/sundowndev/api-go-example/src/libs"
+	"github.com/sundowndev/api-go-example/src/models"
+	"github.com/sundowndev/api-go-example/src/services"
 )
 
 // AuthLogin

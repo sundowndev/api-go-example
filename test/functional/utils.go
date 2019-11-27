@@ -14,9 +14,9 @@ import (
     "net/url"
     "strings"
 
-    "github.com/fbonhomm/api-go-example/source/models"
-    "github.com/fbonhomm/api-go-example/source/routers"
-    "github.com/fbonhomm/api-go-example/source/services"
+    "github.com/sundowndev/api-go-example/src/models"
+    "github.com/sundowndev/api-go-example/src/routers"
+    "github.com/sundowndev/api-go-example/src/services"
 )
 
 // RequestApiJson

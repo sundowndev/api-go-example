@@ -13,8 +13,8 @@ import (
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
 
-	"github.com/fbonhomm/api-go-example/source/libs"
-	"github.com/fbonhomm/api-go-example/source/services"
+	"github.com/sundowndev/api-go-example/src/libs"
+	"github.com/sundowndev/api-go-example/src/services"
 )
 
 func Auth(c *gin.Context) {
