@@ -27,7 +27,6 @@ jobs:
 
     - name: Build
       run: |
-        go get ./...
         /go/bin/golangci-lint run -c ./.golangci.yml ./src/...
         go build -v .
         go test -v ./test/unit/*.go
