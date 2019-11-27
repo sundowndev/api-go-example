@@ -9,9 +9,9 @@ package routers
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/fbonhomm/api-go-example/source/controllers"
-	"github.com/fbonhomm/api-go-example/source/middlewares"
-	"github.com/fbonhomm/api-go-example/source/validators"
+	"github.com/sundowndev/api-go-example/src/controllers"
+	"github.com/sundowndev/api-go-example/src/middlewares"
+	"github.com/sundowndev/api-go-example/src/validators"
 )
 
 // main

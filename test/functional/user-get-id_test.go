@@ -11,7 +11,7 @@ import (
 
     "github.com/stretchr/testify/assert"
 
-    "github.com/fbonhomm/api-go-example/test/fixture"
+    "github.com/sundowndev/api-go-example/test/fixture"
 )
 
 // TestGetId

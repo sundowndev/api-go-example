@@ -11,8 +11,8 @@ import (
 
     "github.com/joho/godotenv"
 
-    "github.com/fbonhomm/api-go-example/source/routers"
-    "github.com/fbonhomm/api-go-example/source/services"
+    "github.com/sundowndev/api-go-example/src/routers"
+    "github.com/sundowndev/api-go-example/src/services"
 )
 
 // init
